@@ -1,0 +1,9 @@
+ 
+name: env
+channels:
+  - conda-forge
+dependencies:
+  - requests
+  - pandas
+  - lxml
+  - matplotlib-base
