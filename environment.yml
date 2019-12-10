@@ -1,9 +1,15 @@
- 
 name: env
 channels:
   - conda-forge
 dependencies:
-  - requests
-  - pandas
+  - python=3.8
+  - git
+  - github3.py
+  - hvplot
+  - jupyter
   - lxml
   - matplotlib-base
+  - networkx
+  - pandas
+  - requests
+  - xonsh
