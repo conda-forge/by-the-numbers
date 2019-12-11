@@ -3,6 +3,7 @@ channels:
   - conda-forge
 dependencies:
   - python=3.8
+  - dask
   - git
   - github3.py
   - hvplot
@@ -11,5 +12,6 @@ dependencies:
   - matplotlib-base
   - networkx
   - pandas
+  - pyvis
   - requests
   - xonsh
