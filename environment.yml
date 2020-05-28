@@ -16,3 +16,5 @@ dependencies:
   - requests
   - tqdm
   - xonsh
+  - grid-strategy
+  - pillow
