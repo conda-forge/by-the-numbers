@@ -35,7 +35,7 @@ jobs:
             if [[ ${CIRCLE_BRANCH} == "master" ]]; then
               git pull
               git add data/*.json
-              git commit --allow-empty -m 'data for job ${CIRCLE_BUILD_URL}'
+              git commit --allow-empty -m "[ci skip] data for job ${CIRCLE_BUILD_URL}"
               git push
             fi
 
