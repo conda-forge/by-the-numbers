@@ -42,5 +42,7 @@ for k, v in datetime_count.items():
         data["month"] += v
 
 
+print(data, flush=True)
+
 with open("data/download_counts.json", "w") as fp:
     json.dump(data, fp, indent=2)
