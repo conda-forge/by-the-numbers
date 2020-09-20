@@ -1,0 +1,10 @@
+intake
+numpy
+dask
+pandas
+tqdm
+requests
+aiohttp
+intake-parquet
+python-snappy
+s3fs>=0.3
