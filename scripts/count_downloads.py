@@ -20,27 +20,20 @@ for year in tqdm(range(2017, this_year+1)):
             df = cat.anaconda_package_data_by_month(
                 year=year, month=month
             ).to_dask()
-        except IndexError:
+        except (IndexError, TypeError):
             break
 
         datetime_count[(year, month)] = df.loc[
             (df.data_source == 'conda-forge')
         ]['counts'].sum().compute()
 
+sdata = sorted(datetime_count.items(), key=lambda x: x[0][0]*12 + x[0][1])
+
 data = {
-    "month": 0,
-    "year": 0,
-    "all": 0,
+    "month": str(sum(x[1] for x in sdata[-1:])),
+    "year": str(sum(x[1] for x in sdata[-12:])),
+    "all": str(sum(x[1] for x in sdata)),
 }
-
-for k, v in datetime_count.items():
-    data["all"] += v
-    if k[0] == this_year:
-        data["year"] += v
-
-    if k[0] == this_year and k[1] == this_month:
-        data["month"] += v
-
 
 print(data, flush=True)
 
