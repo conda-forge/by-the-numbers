@@ -1,0 +1,57 @@
+version: 2
+jobs:
+  build:
+    docker:
+      - image: circleci/python:3.8.3
+    working_directory: ~/repo
+
+    steps:
+      - checkout
+      - run:
+          name: install conda
+          command: |
+            source .circleci/install_miniconda.sh
+
+            git config --global user.email "conda-forge-admin@email.com"
+            git config --global user.name "conda-forge-admin"
+            git config --global pull.rebase false
+
+            repo_url=https://${GITHUB_TOKEN}@github.com/conda-forge/by-the-numbers.git
+            git remote set-url --push origin ${repo_url}
+
+      - run:
+          name: count downloads
+          command: |
+            export PATH=${HOME}/miniconda/bin:$PATH
+            source activate base
+            python scripts/count_downloads.py
+
+      - run:
+          name: push
+          command: |
+            export PATH=${HOME}/miniconda/bin:$PATH
+            source activate base
+
+            if [[ ${CIRCLE_BRANCH} == "master" ]]; then
+              git pull
+              git add data/*.json
+              git commit --allow-empty -m 'data for job ${CIRCLE_BUILD_URL}'
+              git push
+            fi
+
+workflows:
+  version: 2
+  test:
+    jobs:
+      - build
+
+  hourly:
+    jobs:
+      - build
+    triggers:
+      - schedule:
+          cron: "25 * * * *"
+          filters:
+            branches:
+              only:
+                - master
