@@ -50,7 +50,7 @@ workflows:
       - build
     triggers:
       - schedule:
-          cron: "25 * * * *"
+          cron: "0 0 * * 0"
           filters:
             branches:
               only:
