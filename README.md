@@ -1,4 +1,6 @@
 # Conda-forge by-the-number
+[![CircleCI](https://circleci.com/gh/conda-forge/by-the-numbers.svg?style=svg)](https://circleci.com/gh/conda-forge/by-the-numbers)
+
 
 Repo containing some binderhub notebooks to see what the state of the conda-forge.
 
