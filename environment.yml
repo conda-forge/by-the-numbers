@@ -18,3 +18,10 @@ dependencies:
   - xonsh
   - grid-strategy
   - pillow
+  - intake
+  - numpy
+  - dask
+  - aiohttp
+  - intake-parquet
+  - python-snappy
+  - s3fs>=0.3
