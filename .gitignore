@@ -4,4 +4,4 @@ cf-scripts/
 conda_forge_tick/
 graph.json
 cf-action-counter-db
-
+repodata-*.json
