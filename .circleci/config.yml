@@ -32,7 +32,7 @@ jobs:
             export PATH=${HOME}/miniconda/bin:$PATH
             source activate base
 
-            if [[ ${CIRCLE_BRANCH} == "master" ]]; then
+            if [[ ${CIRCLE_BRANCH} == "main" ]]; then
               git pull
               git add data/*.json
               git commit --allow-empty -m "[ci skip] data for job ${CIRCLE_BUILD_URL}"
