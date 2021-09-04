@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 if [ ! -d ${HOME}/miniconda ]; then
-  curl -s https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -o miniconda.sh
+  curl -sL https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh -o miniconda.sh
   bash miniconda.sh -b -p ${HOME}/miniconda
   rm -f miniconda.sh
 
@@ -21,6 +21,6 @@ conda update -q conda
 
 source activate base
 
-conda update --all -y -q
+mamba update --all -y -q
 
-conda install -y -q --file conda-requirements.txt
+mamba install -y -q --file conda-requirements.txt
