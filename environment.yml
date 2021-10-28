@@ -25,3 +25,5 @@ dependencies:
   - intake-parquet
   - python-snappy
   - s3fs>=0.3
+  - simdjson
+  - pysimdjson

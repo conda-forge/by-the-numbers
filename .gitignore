@@ -5,3 +5,4 @@ conda_forge_tick/
 graph.json
 cf-action-counter-db
 repodata-*.json
+conda-forge-status-monitor/
