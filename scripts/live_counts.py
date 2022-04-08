@@ -25,7 +25,8 @@ GH_TOKEN = os.environ["GITHUB_TOKEN"]
 
 
 def _gh_api_query_total_count(query, **kwargs):
-    r = requests.get(f"https://api.github.com/{query}",
+    r = requests.get(
+        f"https://api.github.com/{query}",
         headers={"Authorization": f"token {GH_TOKEN}"},
         **kwargs
     )
@@ -52,15 +53,38 @@ def github_data():
     n_members = org.get_members().totalCount
     members_core = set(m.login for m in org.get_team_by_slug("Core").get_members())
     n_members_core = len(members_core)
-    members_staged_recipes = set(m.login for m in org.get_team_by_slug("staged-recipes").get_members())
-    n_members_staged_recipes = sum(1 for login in members_staged_recipes if login not in members_core)
+    members_staged_recipes = set(
+        m.login
+        for m in org.get_team_by_slug("staged-recipes").get_members()
+    )
+    n_members_staged_recipes = sum(
+        1
+        for login in members_staged_recipes
+        if login not in members_core
+    )
 
-    # get number of issues and PRs - we need to use requests directly here, pygithub says totalCount is 1000 ??
+    # get number of issues and PRs - we need to use requests directly here,
+    # pygithub says totalCount is 1000 ??
     print("Getting issues / PRs...")
-    n_open_issues = _gh_api_query_total_count("search/issues", params={"q": "org:conda-forge is:issue is:open"})
-    n_closed_issues = _gh_api_query_total_count("search/issues", params={"q": "org:conda-forge is:issue is:closed"})
-    n_open_prs = _gh_api_query_total_count("search/issues", params={"q": "org:conda-forge is:pr is:open"})
-    n_closed_prs = _gh_api_query_total_count("search/issues", params={"q": "org:conda-forge is:pr is:closed"})
+    n_open_issues = _gh_api_query_total_count(
+        "search/issues",
+        params={"q": "org:conda-forge type:issue state:open"}
+    )
+    n_closed_issues = _gh_api_query_total_count(
+        "search/issues",
+        params={"q": "org:conda-forge type:issue state:closed"},
+    )
+    n_open_prs = _gh_api_query_total_count(
+        "search/issues",
+        params={"q": "org:conda-forge type:pr state:open"},
+    )
+    n_closed_prs = _gh_api_query_total_count(
+        "search/issues",
+        params={"q": "org:conda-forge type:pr state:closed"},
+    )
+
+    with open("data/download_counts.json", "r") as fp:
+        dnlds = json.load(fp)
 
     return {
         "created_at": created,
@@ -74,6 +98,7 @@ def github_data():
         "n_prs": n_open_prs + n_closed_prs,
         "n_open_prs": n_open_prs,
         "n_closed_prs": n_closed_prs,
+        "downloads": dnlds,
     }
 
 
@@ -118,7 +143,7 @@ def main():
     }
     with open("data/live_counts.json", "w") as f:
         json.dump(data, f, indent=2)
-    print(json.dumps(data), indent=2)
+    print(json.dumps(data, indent=2))
 
     return data
 
