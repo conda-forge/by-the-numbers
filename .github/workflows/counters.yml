@@ -33,6 +33,6 @@ jobs:
         if: github.event_name != 'pull_request'
         run: |
           git add data/live_counts.json
-          git ci -m '[ci skip] counter data'
+          git commit --allow-empty -m '[ci skip] counter data'
           git pull
           git push
