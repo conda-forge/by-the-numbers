@@ -86,7 +86,10 @@ def github_data():
     with open("data/download_counts.json", "r") as fp:
         dnlds = json.load(fp)
 
-    return {
+    with open("data/live_counts.json", "r") as f:
+        data = json.load(f)
+
+    data.update({
         "created_at": created,
         "n_members": n_members,
         "n_members_core": n_members_core,
@@ -95,11 +98,17 @@ def github_data():
         "n_issues": n_open_issues + n_closed_issues,
         "n_open_issues": n_open_issues,
         "n_closed_issues": n_closed_issues,
-        "n_prs": n_open_prs + n_closed_prs,
-        "n_open_prs": n_open_prs,
-        "n_closed_prs": n_closed_prs,
         "downloads": dnlds,
-    }
+    })
+    if (n_open_prs + n_closed_prs) >= data["n_pars"]:
+        data.update({
+            "n_prs": n_open_prs + n_closed_prs,
+            "n_open_prs": n_open_prs,
+            "n_closed_prs": n_closed_prs,
+        })
+
+    return data
+
 
 
 def libcgfraph_data():
