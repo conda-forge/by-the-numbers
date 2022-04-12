@@ -1,5 +1,5 @@
 # Conda-forge by-the-number
-[![CircleCI](https://circleci.com/gh/conda-forge/by-the-numbers.svg?style=svg)](https://circleci.com/gh/conda-forge/by-the-numbers)
+[![CircleCI](https://circleci.com/gh/conda-forge/by-the-numbers.svg?style=svg)](https://circleci.com/gh/conda-forge/by-the-numbers) [![counters](https://github.com/conda-forge/by-the-numbers/actions/workflows/counters.yml/badge.svg)](https://github.com/conda-forge/by-the-numbers/actions/workflows/counters.yml)
 
 
 Repo containing some binderhub notebooks to see what the state of the conda-forge.
