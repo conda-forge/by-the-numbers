@@ -100,7 +100,7 @@ def github_data():
         "n_closed_issues": n_closed_issues,
         "downloads": dnlds,
     })
-    if (n_open_prs + n_closed_prs) >= data["n_pars"]:
+    if (n_open_prs + n_closed_prs) >= data["n_prs"]:
         data.update({
             "n_prs": n_open_prs + n_closed_prs,
             "n_open_prs": n_open_prs,
