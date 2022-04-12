@@ -51,17 +51,17 @@ def github_data():
     # get number of members
     print("Getting members...")
     n_members = org.get_members().totalCount
-    # members_core = set(m.login for m in org.get_team_by_slug("Core").get_members())
-    n_members_core = 0 # len(members_core)
-    # members_staged_recipes = set(
-    #     m.login
-    #     for m in org.get_team_by_slug("staged-recipes").get_members()
-    # )
-    n_members_staged_recipes = 0 # sum(
-    #     1
-    #     for login in members_staged_recipes
-    #     if login not in members_core
-    # )
+    members_core = set(m.login for m in org.get_team_by_slug("Core").get_members())
+    n_members_core = len(members_core)
+    members_staged_recipes = set(
+        m.login
+        for m in org.get_team_by_slug("staged-recipes").get_members()
+    )
+    n_members_staged_recipes = sum(
+        1
+        for login in members_staged_recipes
+        if login not in members_core
+    )
 
     # get number of issues and PRs - we need to use requests directly here,
     # pygithub says totalCount is 1000 ??
