@@ -27,7 +27,7 @@ jobs:
       - name: Run script
         run: python scripts/live_counts.py
         env:
-          GITHUB_TOKEN: ${{ secrets.github_token }}
+          GITHUB_TOKEN: ${{ secrets.CF_DAEMON_GH_TOKEN }}
 
       - name: Commit to repo
         if: github.event_name != 'pull_request'
