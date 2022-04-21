@@ -135,6 +135,22 @@ def libcgfraph_data():
         if platform != "noarch":
             platforms.add(platform)
 
+    # we request one release per page, so the total number of pages is the number
+    # of releases
+    r = requests.head(
+        "https://api.github.com/repos/conda-forge/releases/releases?per_page=1",
+        headers={"Accept": "application/vnd.github.v3+json"},
+    )
+    # this is magic - more or less stripping down the Link header that looks like this
+    # '<https://api.github.com/repositories/288431736/releases?per_page=1&page=2>;
+    #  rel="next",
+    #  <https://api.github.com/repositories/288431736/releases?per_page=1&page=905521>;
+    #  rel="last"'
+    # pginfo holds [# of releases per page, # of pages]
+    pginfo = r.headers["Link"].split(",")[1].split(";")[0].strip()[:-1].split("?")[1].split("&")
+    pginfo = [int(v.split("=")[1]) for v in pginfo]
+    n_artifacts = pginfo[1]
+
     return {
         "n_artifacts": n_artifacts,
         "n_packages": len(packages),
