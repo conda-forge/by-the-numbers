@@ -7,16 +7,16 @@
   "n_issues": 17979,
   "n_open_issues": 3219,
   "n_closed_issues": 14760,
-  "n_prs": 222314,
-  "n_open_prs": 6977,
-  "n_closed_prs": 215337,
+  "n_prs": 222317,
+  "n_open_prs": 6975,
+  "n_closed_prs": 215342,
   "downloads": {
     "month": "284958566",
     "year": "3322918181",
     "all": "6570549352"
   },
-  "n_artifacts": 910844,
-  "n_packages": 17819,
+  "n_artifacts": 910905,
+  "n_packages": 17820,
   "n_platforms": 6,
   "n_commits": null,
   "n_commits_bots": null
