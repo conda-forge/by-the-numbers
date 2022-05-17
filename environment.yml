@@ -1,4 +1,4 @@
-name: env
+name: by-the-numbers
 channels:
   - conda-forge
 dependencies:
@@ -26,3 +26,5 @@ dependencies:
   - intake-parquet
   - python-snappy
   - s3fs>=0.3
+  - simdjson
+  - pysimdjson
