@@ -6,7 +6,7 @@ on:
       - main
   pull_request:
   schedule:
-    - cron: "*/15 * * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch: null
 
 jobs:
