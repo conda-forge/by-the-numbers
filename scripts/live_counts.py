@@ -63,31 +63,42 @@ def github_data():
         if login not in members_core
     )
 
+    with open("data/live_counts.json", "r") as f:
+        data = json.load(f)
+
     # get number of issues and PRs - we need to use requests directly here,
     # pygithub says totalCount is 1000 ??
     print("Getting issues / PRs...")
-    n_open_issues = _gh_api_query_total_count(
-        "search/issues",
-        params={"q": "org:conda-forge type:issue state:open"}
-    )
-    n_closed_issues = _gh_api_query_total_count(
-        "search/issues",
-        params={"q": "org:conda-forge type:issue state:closed"},
-    )
-    n_open_prs = _gh_api_query_total_count(
-        "search/issues",
-        params={"q": "org:conda-forge type:pr state:open"},
-    )
-    n_closed_prs = _gh_api_query_total_count(
-        "search/issues",
-        params={"q": "org:conda-forge type:pr state:closed"},
-    )
+    try:
+        n_open_issues = _gh_api_query_total_count(
+            "search/issues",
+            params={"q": "org:conda-forge type:issue state:open"}
+        )
+        n_closed_issues = _gh_api_query_total_count(
+            "search/issues",
+            params={"q": "org:conda-forge type:issue state:closed"},
+        )
+    except Exception as e:
+        print("ERROR!\n", repr(e))
+        n_open_issues = data["n_open_issues"]
+        n_closed_issues = data["n_closed_issues"]
+
+    try:
+        n_open_prs = _gh_api_query_total_count(
+            "search/issues",
+            params={"q": "org:conda-forge type:pr state:open"},
+        )
+        n_closed_prs = _gh_api_query_total_count(
+            "search/issues",
+            params={"q": "org:conda-forge type:pr state:closed"},
+        )
+    except Exception as e:
+        print("ERROR!\n", repr(e))
+        n_open_prs = data["n_open_prs"]
+        n_closed_prs = data["n_closed_prs"]
 
     with open("data/download_counts.json", "r") as fp:
         dnlds = json.load(fp)
-
-    with open("data/live_counts.json", "r") as f:
-        data = json.load(f)
 
     data.update({
         "created_at": created,
