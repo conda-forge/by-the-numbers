@@ -3,9 +3,9 @@
   "n_members": 3981,
   "n_members_core": 33,
   "n_members_staged_recipes": 15,
-  "n_repos": 16475,
-  "n_issues": 18590,
-  "n_open_issues": 3278,
+  "n_repos": 16476,
+  "n_issues": 18592,
+  "n_open_issues": 3280,
   "n_closed_issues": 15312,
   "n_prs": 227774,
   "n_open_prs": 7087,
@@ -15,8 +15,8 @@
     "year": "3637398300",
     "all": "7626906182"
   },
-  "n_artifacts": 944969,
-  "n_packages": 18335,
+  "n_artifacts": 945159,
+  "n_packages": 18336,
   "n_platforms": 6,
   "n_commits": null,
   "n_commits_bots": null
