@@ -24,10 +24,17 @@ jobs:
       - name: Install deps
         run: python -m pip install pygithub requests
 
+      - name: Generate token
+        id: generate_token
+        uses: conda-forge/github-app-token@e3ab451d57e120b956292a1fa1d21fe4ba171c36
+        with:
+          app_id: ${{ secrets.CF_CURATOR_APP_ID }}
+          private_key: ${{ secrets.CF_CURATOR_PRIVATE_KEY }}
+
       - name: Run script
         run: python scripts/live_counts.py
         env:
-          GITHUB_TOKEN: ${{ secrets.CF_ADMIN_GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
 
       - name: Commit to repo
         if: github.event_name != 'pull_request'
