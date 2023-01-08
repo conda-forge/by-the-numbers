@@ -30,8 +30,6 @@ jobs:
         shell: bash -l {0}
         run: |
           mamba install -y -q --file conda-requirements.txt
-        env:
-          GITHUB_TOKEN: ${{ secrets.CF_DAEMON_GITHUB_TOKEN }}
 
       - name: run script
         shell: bash -l {0}
