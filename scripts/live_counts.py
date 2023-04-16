@@ -20,6 +20,7 @@ import json
 
 from github import Github
 import requests
+from conda_forge_metadata.libcfgraph import get_libcfgraph_index
 
 GH_TOKEN = os.environ["GITHUB_TOKEN"]
 
@@ -123,12 +124,7 @@ def github_data():
 
 def libcgfraph_data():
     print("Getting artifacts...")
-    url = "https://github.com/regro/libcfgraph/raw/master/.file_listing.json"
-
-    r = requests.get(url)
-    r.raise_for_status()
-    data = json.loads(r.content)
-    del r
+    data = get_libcfgraph_index()
 
     n_artifacts = 0
     packages = set()
