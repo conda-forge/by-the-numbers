@@ -1,12 +1,12 @@
 {
   "created_at": "2015-04-11 07:37:06",
-  "n_members": 4984,
+  "n_members": 4986,
   "n_members_core": 33,
   "n_members_staged_recipes": 16,
-  "n_repos": 19663,
-  "n_issues": 23727,
-  "n_open_issues": 3965,
-  "n_closed_issues": 19762,
+  "n_repos": 19668,
+  "n_issues": 23730,
+  "n_open_issues": 3966,
+  "n_closed_issues": 19764,
   "n_prs": 310062,
   "n_open_prs": 9183,
   "n_closed_prs": 300879,
@@ -15,8 +15,8 @@
     "year": "4022574186",
     "all": "11283932242"
   },
-  "n_artifacts": 1373330,
-  "n_packages": 22010,
+  "n_artifacts": 1373611,
+  "n_packages": 22015,
   "n_platforms": 6,
   "n_commits": null,
   "n_commits_bots": null
