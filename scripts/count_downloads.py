@@ -23,6 +23,10 @@ for year in tqdm(range(2017, this_year+1)):
         except (IndexError, TypeError):
             break
 
+        if len(df) == 0:
+            print("year %d is missing!" % year, flush=True)
+            continue
+
         datetime_count[(year, month)] = df.loc[
             (df.data_source == 'conda-forge')
         ]['counts'].sum().compute()
