@@ -1,7 +1,7 @@
 intake
 numpy
 dask
-pandas
+pandas<2
 tqdm
 requests
 aiohttp
