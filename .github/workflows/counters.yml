@@ -43,7 +43,7 @@ jobs:
           git config --global user.name "conda-forge-curator[bot]"
           git config --global pull.rebase false
           
-          git add data/live_counts.json
+          git add data/live_counts.json data/labels.json
           git commit --allow-empty -m '[ci skip] counter data'
           git pull
           git push
