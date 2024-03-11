@@ -18,9 +18,10 @@ Collect some numbers for conda-forge:
 import os
 import json
 
-from github import Github
 import requests
-from conda_forge_metadata.libcfgraph import get_libcfgraph_index
+from conda_forge_metadata.repodata import SUBDIRS, n_artifacts, all_labels
+from github import Github
+
 
 GH_TOKEN = os.environ["GITHUB_TOKEN"]
 
@@ -122,36 +123,28 @@ def github_data():
     return data
 
 
-def libcgfraph_data():
+def repodata_data():
     print("Getting artifacts...")
-    data = get_libcfgraph_index()
-
-    n_artifacts = 0
-    packages = set()
-    platforms = set()
-    for path in data:
-        n_artifacts += 1
-        # each path has this structure
-        # artifacts/tvips-tools/conda-forge/linux-64/tvips-tools-0.0.0-h27087fc_0.json
-        parts = path.split("/")
-        if len(parts) != 5:
-            continue
-        _, pkg_name, _, platform, _ = parts
-        packages.add(pkg_name)
-        if platform != "noarch":
-            platforms.add(platform)
-
-    return {
-        "n_artifacts": n_artifacts,
-        "n_packages": len(packages),
-        "n_platforms": len(platforms)
+    artifacts, packages = n_artifacts(labels=all_labels(use_remote_cache=False))
+    return { 
+        "n_artifacts": artifacts,
+        "n_packages": packages,
+        "n_platforms": len(SUBDIRS) - 1,  # noarch is not a platform
     }
 
 
+def cache_labels():
+    print("Caching labels...")
+    labels = all_labels(use_remote_cache=False)
+    with open("data/labels.json", "w") as f:
+        json.dump(labels, f, indent=2)
+
+
 def main():
+    cache_labels()
     data = {
         **github_data(),
-        **libcgfraph_data(),
+        **repodata_data(),
         # Missing fields - WIP
         "n_commits": None,
         "n_commits_bots": None,
