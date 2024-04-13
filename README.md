@@ -1,4 +1,4 @@
-# Conda-forge by-the-number
+# `conda-forge` by-the-numbers
 [![counters](https://github.com/conda-forge/by-the-numbers/actions/workflows/counters.yml/badge.svg)](https://github.com/conda-forge/by-the-numbers/actions/workflows/counters.yml)
 [![downloads](https://github.com/conda-forge/by-the-numbers/actions/workflows/downloads.yml/badge.svg)](https://github.com/conda-forge/by-the-numbers/actions/workflows/downloads.yml)
 
