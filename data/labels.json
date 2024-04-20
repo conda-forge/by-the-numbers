@@ -155,6 +155,7 @@
   "mpas_analysis_dev",
   "mpas_tools_dev",
   "msprime_rc",
+  "nanobind_dev",
   "nbconvert_rc",
   "nco_dev",
   "ndcctools_rc",
