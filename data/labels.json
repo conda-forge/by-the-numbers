@@ -261,6 +261,7 @@
   "sunode_dev",
   "sunpy_rc",
   "swi_prolog_experimental",
+  "sysroot-with-crypt",
   "systemc_dev",
   "tabmat_dev",
   "tango-idl_dev",
