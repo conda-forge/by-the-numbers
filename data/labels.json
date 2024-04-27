@@ -188,6 +188,7 @@
   "openmpi_rc",
   "openvino_dev",
   "pandas_rc",
+  "pdal_rc",
   "perses_dev",
   "pivy_rc",
   "pixy_dev",
