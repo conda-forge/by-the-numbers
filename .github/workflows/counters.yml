@@ -15,7 +15,7 @@ jobs:
     name: counters
     steps:
       - name: checkout
-        uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2
+        uses: actions/checkout@0ad4b8fadaa221de15dcec353f45205ec38ea70b # v2
 
       - uses: actions/setup-python@3542bca2639a428e1796aaa6a2ffef0c0f575566 # v3
         with:
