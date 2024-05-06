@@ -15,9 +15,9 @@ jobs:
     name: counters
     steps:
       - name: checkout
-        uses: actions/checkout@v2
+        uses: actions/checkout@ee0669bd1cc54295c223e0bb666b733df41de1c5 # v2
 
-      - uses: actions/setup-python@v3
+      - uses: actions/setup-python@3542bca2639a428e1796aaa6a2ffef0c0f575566 # v3
         with:
           python-version: "3.10"
 
@@ -26,7 +26,7 @@ jobs:
 
       - name: Generate token
         id: generate_token
-        uses: actions/create-github-app-token@v1
+        uses: actions/create-github-app-token@a0de6af83968303c8c955486bf9739a57d23c7f1 # v1
         with:
           app-id: ${{ secrets.CF_CURATOR_APP_ID }}
           private-key: ${{ secrets.CF_CURATOR_PRIVATE_KEY }}
@@ -43,7 +43,7 @@ jobs:
           git config --global user.email "79913779+conda-forge-curator[bot]@users.noreply.github.com"
           git config --global user.name "conda-forge-curator[bot]"
           git config --global pull.rebase false
-          
+
           git add data/live_counts.json data/labels.json
           git commit --allow-empty -m '[ci skip] counter data'
           git pull
