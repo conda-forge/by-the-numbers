@@ -144,6 +144,7 @@
   "mamba_dev",
   "matplotlib-base_rc",
   "matplotlib_rc",
+  "mdtraj_rc",
   "meson_dev",
   "metpy_rc",
   "microed-data_dev",
