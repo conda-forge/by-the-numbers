@@ -122,6 +122,7 @@
   "lazy_loader_rc",
   "lhcbdirac_rc",
   "libcugraph_dev",
+  "libcxx_dev",
   "libint_dev",
   "libitk_dev",
   "libnetcdf_dev",
