@@ -133,6 +133,7 @@
   "lief_dev",
   "lief_rc",
   "llvm-bazel-cache",
+  "llvm_dev",
   "llvm_rc",
   "llvm_rc_old",
   "llvm_tf",
