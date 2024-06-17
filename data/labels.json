@@ -164,6 +164,7 @@
   "mpas_analysis_dev",
   "mpas_tools_dev",
   "msprime_rc",
+  "msys2-experimental",
   "nanobind_dev",
   "nbconvert_rc",
   "nco_dev",
