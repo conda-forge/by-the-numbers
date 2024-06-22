@@ -124,6 +124,7 @@
   "lhcbdirac_rc",
   "libcugraph_dev",
   "libcxx_dev",
+  "libcxx_macos_lt_12",
   "libint_dev",
   "libitk_dev",
   "libnetcdf_dev",
