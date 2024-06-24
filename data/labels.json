@@ -262,6 +262,7 @@
   "rubin-env_dev",
   "rust_dev",
   "sagedev",
+  "sagemaker-code-editor_dev",
   "sardana_dev",
   "scikit-learn_rc",
   "scipoptsuite_rc",
