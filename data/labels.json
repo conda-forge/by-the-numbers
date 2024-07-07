@@ -48,6 +48,7 @@
   "cupy_rc",
   "cython_dev",
   "deepmd-kit_dev",
+  "deepmd-kit_rc",
   "delft_fiat_rc",
   "dev",
   "diffpriv_dev",
