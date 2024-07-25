@@ -119,6 +119,7 @@
   "jupyterlite_core_rc",
   "jupyterlite_pyodide_kernel_alpha",
   "jupyterlite_pyodide_kernel_beta",
+  "jupyterlite_pyodide_kernel_rc",
   "kenlm_dev",
   "kubessh_dev",
   "lapack_rc",
