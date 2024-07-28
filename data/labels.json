@@ -186,6 +186,7 @@
   "old_feature_broken",
   "old_name",
   "onnx_dev",
+  "openblas_dev",
   "opendrift_rc",
   "openfast_dev",
   "openfe_dev",
