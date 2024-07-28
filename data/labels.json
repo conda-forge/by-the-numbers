@@ -220,6 +220,7 @@
   "prerelease",
   "prerelease-jupyterlab",
   "prerelease-mdbenchmark",
+  "proj_dev",
   "prophet_dev",
   "psi4_dev",
   "pulled",
