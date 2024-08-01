@@ -70,6 +70,7 @@
   "exceptiongroup_dev",
   "featuretools_rc",
   "fenics-dev",
+  "fiona_dev",
   "fluidsim-core",
   "fluidsim-core_rc",
   "fluidsim_rc",
