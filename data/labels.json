@@ -27,6 +27,7 @@
   "bw2data_dev",
   "bw2io_dev",
   "calliope_dev",
+  "cantera_dev",
   "capytaine_dev",
   "cartopy_dev",
   "cdat_dev",
