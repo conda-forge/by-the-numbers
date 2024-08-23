@@ -268,6 +268,7 @@
   "rc_iris_grib",
   "rc_pytask",
   "rc_ucx",
+  "rcpp11_dev",
   "rdkit_rc",
   "renamed",
   "robotframework_jupyterlibrary_alpha",
