@@ -55,6 +55,7 @@
   "dev",
   "diffpriv_dev",
   "diffpy.pdffit2_rc",
+  "diffpy.pdfgui_rc",
   "diffpy.structure_rc",
   "dirac-grid_rc",
   "django-viewflow_rc",
