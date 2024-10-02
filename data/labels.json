@@ -160,6 +160,7 @@
   "main",
   "mamba-alpha",
   "mamba_dev",
+  "mamba_prerelease",
   "matplotlib-base_rc",
   "matplotlib_rc",
   "mdal-python_rc",
