@@ -300,6 +300,7 @@
   "spglib_rc",
   "spyder_dev",
   "spyder_kernels_rc",
+  "spyder_rc",
   "stir_dev",
   "sunode_dev",
   "sunpy_rc",
