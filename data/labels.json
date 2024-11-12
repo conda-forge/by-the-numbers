@@ -47,6 +47,7 @@
   "cnes",
   "colmap_dev",
   "compliance-checker_rc",
+  "conda-libmamba-solver_rc",
   "connectorx_rc",
   "corrupted",
   "cpptango_rc",
