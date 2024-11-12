@@ -179,6 +179,7 @@
   "microed-data_dev",
   "microed-tools_dev",
   "micromamba_dev",
+  "micromamba_prerelease",
   "micromamba_rc",
   "mlir_rc",
   "mlir_tf",
