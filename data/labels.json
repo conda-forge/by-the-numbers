@@ -205,6 +205,7 @@
   "old",
   "old_feature_broken",
   "old_name",
+  "omegaconf_dev",
   "onnx_dev",
   "openblas_dev",
   "opendrift_rc",
