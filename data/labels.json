@@ -111,6 +111,7 @@
   "holoviews_dev",
   "hoomd_dev",
   "hpcflow_rc",
+  "hydra-core_dev",
   "ipyelk_alpha",
   "ipython_beta",
   "ipython_rc",
