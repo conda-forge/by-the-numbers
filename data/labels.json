@@ -76,6 +76,7 @@
   "e3sm_to_cmip_dev",
   "ecole_dev",
   "eelbrain_dev",
+  "emscripten",
   "esmf_dev",
   "esmpy_dev",
   "esmvalcore_rc",
