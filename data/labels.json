@@ -206,6 +206,7 @@
   "notebook_rc",
   "numpy_dev",
   "numpy_rc",
+  "nvlp_rc",
   "occt_rc",
   "ocl-icd-dev",
   "old",
