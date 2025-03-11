@@ -102,6 +102,7 @@
   "gevent_dev",
   "glum_dev",
   "gnuradio_rc",
+  "gplately_rc",
   "gql_beta",
   "graphql_core_alpha",
   "grpc_dev",
