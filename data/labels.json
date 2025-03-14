@@ -318,6 +318,7 @@
   "smesh_rc",
   "spglib_rc",
   "spyder_dev",
+  "spyder_kernels_dev",
   "spyder_kernels_rc",
   "spyder_rc",
   "stir_dev",
