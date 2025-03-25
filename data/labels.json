@@ -95,6 +95,7 @@
   "fluidsim-core",
   "fluidsim-core_rc",
   "fluidsim_rc",
+  "fmt_dev",
   "freecad_rc",
   "gcc7",
   "geofileops_dev",
