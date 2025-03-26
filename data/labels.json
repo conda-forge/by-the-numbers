@@ -1,4 +1,5 @@
 [
+  "CF202003",
   "TEST",
   "abi-dumper_dev",
   "abseil_dev",
@@ -45,6 +46,7 @@
   "cf2021.06",
   "cf2022.01",
   "cf202302",
+  "cf202307",
   "cf202401",
   "cf_units_dev",
   "cftime_dev",
