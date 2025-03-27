@@ -131,6 +131,8 @@
   "gpl",
   "gplately_rc",
   "gql_beta",
+  "graph-tool",
+  "graph-tool_rc",
   "graphql_core_alpha",
   "grpc_dev",
   "gufe_dev",
