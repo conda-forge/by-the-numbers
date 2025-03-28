@@ -1,4 +1,5 @@
 [
+  "1.10.10",
   "CF202003",
   "TEST",
   "abi-dumper_dev",
@@ -135,6 +136,7 @@
   "graph-tool",
   "graph-tool_rc",
   "graphql_core_alpha",
+  "gromacsrc",
   "grpc_dev",
   "gufe_dev",
   "gufe_rc",
