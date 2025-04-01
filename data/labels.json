@@ -318,6 +318,7 @@
   "siesta_rc",
   "simmate_dev",
   "smesh_rc",
+  "spdlog_dev",
   "spglib_rc",
   "spyder_dev",
   "spyder_kernels_dev",
