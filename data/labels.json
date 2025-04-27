@@ -71,6 +71,7 @@
   "cyclus_dev",
   "cymetric_dev",
   "cython_dev",
+  "debug",
   "deepmd-kit_dev",
   "deepmd-kit_rc",
   "delft_fiat_rc",
