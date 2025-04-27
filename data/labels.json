@@ -304,6 +304,7 @@
   "pytest-html_rc",
   "pythia8_dev",
   "python_debug",
+  "python_oldpython",
   "python_rc",
   "python_rc_debug",
   "pythonnet_dev",
