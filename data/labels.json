@@ -400,6 +400,7 @@
   "tango-test_rc",
   "tango_dev",
   "tempest_dev",
+  "tensorflow_legacy",
   "test",
   "testing",
   "tiledb-py_rc",
