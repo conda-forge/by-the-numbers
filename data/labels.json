@@ -1,4 +1,6 @@
 [
+  "201901",
+  "202003",
   "TEST",
   "abi-dumper_dev",
   "abseil_dev",
@@ -175,6 +177,7 @@
   "gufe_rc",
   "gwcosmo_dev",
   "h5py_dev",
+  "h68779a4_1",
   "halide_calver",
   "haystack-ai_rc",
   "helios_dev",
