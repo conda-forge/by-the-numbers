@@ -272,6 +272,7 @@
   "nco_dev",
   "ndcctools_rc",
   "netcdf4_dev",
+  "ngsolve_dev",
   "nightly",
   "notebook_alpha",
   "notebook_beta",
