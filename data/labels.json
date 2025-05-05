@@ -343,6 +343,7 @@
   "pyiron_atomistics_dev",
   "pyiron_base_dev",
   "pyload-ng_dev",
+  "pymc3-legacy",
   "pyne_dev",
   "pyne_rc",
   "pyoma-2_dev",
