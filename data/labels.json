@@ -206,6 +206,7 @@
   "ipywidgets_dev",
   "ipywidgets_rc",
   "jigsaw_dev",
+  "jmetal",
   "julia_dev",
   "julia_rc",
   "jupyter_lsp_beta",
