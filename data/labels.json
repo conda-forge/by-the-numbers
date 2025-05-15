@@ -1,4 +1,5 @@
 [
+  "%2Bcf201901",
   "+cf201901",
   "201901",
   "202003",
@@ -182,6 +183,7 @@
   "fenics-dolfinx-nightly",
   "fenics-ffcx-nightly",
   "fenics-ufl-nightly",
+  "fenics2019.1.0",
   "fenics_dev",
   "fiona_dev",
   "fluidsim-core",
@@ -501,6 +503,8 @@
   "ty_alpha",
   "ty_alpha,conda-forge",
   "typst_rc",
+  "ucx-1.11.1",
+  "ucx-py-0.22",
   "unixodbc_dev",
   "unpinned",
   "uxarray_dev",
