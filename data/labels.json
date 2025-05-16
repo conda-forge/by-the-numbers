@@ -369,6 +369,7 @@
   "openmpi_rc",
   "openvino_dev",
   "orc_dev",
+  "osx_arm64",
   "paddle_arm64",
   "pandas_dev",
   "pandas_rc",
