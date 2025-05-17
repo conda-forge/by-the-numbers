@@ -80,6 +80,7 @@
   "cf202003:",
   "cf202003::category_encoders",
   "cf202003::dask-ml",
+  "cf202003::fenics",
   "cf202003::pyferret",
   "cf202009",
   "cf202011",
