@@ -142,6 +142,7 @@
   "cuda2012",
   "cuda9.0",
   "cuda_11.3",
+  "cudnn6",
   "cudnn8.6",
   "cupy_rc",
   "cv",
@@ -463,6 +464,7 @@
   "rcpp11_dev",
   "rdkit_rc",
   "renamed",
+  "retired",
   "robotframework_jupyterlibrary_alpha",
   "rocm6.3",
   "rocm6.4",
@@ -535,6 +537,7 @@
   "xcdat_dev",
   "xeus-cling",
   "xeus-octave_dev",
+  "xgboost_rc",
   "yarn_rc",
   "zppy_dev",
   "zstash_dev"
