@@ -192,6 +192,7 @@
   "fenics-ufl-nightly",
   "fenics2019.1.0",
   "fenics_dev",
+  "fenics_nightly",
   "fiona_dev",
   "fluidsim-core",
   "fluidsim-core_rc",
