@@ -172,6 +172,7 @@
   "cuda_11.3",
   "cudnn6",
   "cudnn8.6",
+  "cupy_dev",
   "cupy_rc",
   "cv",
   "cycamore_dev",
