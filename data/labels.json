@@ -252,6 +252,7 @@
   "fenics-dev",
   "fenics-dolfinx-nightly",
   "fenics-ffcx-nightly",
+  "fenics-stable",
   "fenics-ufl-nightly",
   "fenics2019.1.0",
   "fenics_dev",
