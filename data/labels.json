@@ -345,6 +345,7 @@
   "jupyterlite_pyodide_kernel_rc",
   "kenlm_dev",
   "kubessh_dev",
+  "lab",
   "lapack_dev",
   "lapack_rc",
   "lazy_loader_rc",
