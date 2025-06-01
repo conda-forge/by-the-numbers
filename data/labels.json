@@ -235,6 +235,7 @@
   "e3sm_diags_dev",
   "e3sm_to_cmip_dev",
   "e3sm_unified_dev",
+  "ec_ucx",
   "ecole_dev",
   "eelbrain_dev",
   "emscripten",
