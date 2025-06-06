@@ -35,6 +35,7 @@
   "azure-datalake-store_rc",
   "azure-keyvault-administration_rc",
   "azure-keyvault-keys_rc",
+  "azure-keyvault-securitydomain_rc",
   "azure-mgmt-batchai_rc",
   "azure-mgmt-containerinstance_rc",
   "azure-mgmt-datalake-store_dev",
