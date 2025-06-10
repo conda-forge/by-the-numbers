@@ -283,6 +283,7 @@
   "fenics_2019.1.0",
   "fenics_dev",
   "fenics_nightly",
+  "fenicsx_dev",
   "fiona_dev",
   "flink_rc",
   "fluidsim-core",
