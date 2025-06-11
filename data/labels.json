@@ -534,6 +534,7 @@
   "psi4%2Bddev",
   "psi4_dev",
   "pulled",
+  "py3.10",
   "py_build_cmake_dev",
   "pyccl-rc",
   "pydata-sphinx-theme_rc",
