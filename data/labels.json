@@ -470,6 +470,7 @@
   "msys2-experimental",
   "nanobind_dev",
   "nbconvert_rc",
+  "ncl_arm",
   "nco_dev",
   "ndcctools_rc",
   "netcdf4_dev",
