@@ -418,6 +418,7 @@
   "libcxx_dev",
   "libcxx_macos_lt_12",
   "libgdal_hotfix",
+  "libint",
   "libint_dev",
   "libitk_dev",
   "libjava",
