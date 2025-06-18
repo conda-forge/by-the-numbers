@@ -535,6 +535,7 @@
   "openmmtools_rc",
   "openmpi_rc",
   "openvino_dev",
+  "optional",
   "orc_dev",
   "osx_arm64",
   "paddle_arm64",
