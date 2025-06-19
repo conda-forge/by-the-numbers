@@ -603,6 +603,7 @@
   "python_debug",
   "python_debug::python",
   "python_oldpython",
+  "python_prerelease",
   "python_rc",
   "python_rc_debug",
   "pythonnet_dev",
