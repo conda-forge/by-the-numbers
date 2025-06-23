@@ -671,6 +671,7 @@
   "rocm6.4",
   "rocm_6.0",
   "root",
+  "ros",
   "rubin-env_dev",
   "rust_dev",
   "rust_dev,conda-forge",
