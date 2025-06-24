@@ -258,6 +258,7 @@
   "cuda_12.6",
   "cudf_unsupported",
   "cudnn",
+  "cudnn-8.7.0",
   "cudnn6",
   "cudnn8",
   "cudnn8.6",
