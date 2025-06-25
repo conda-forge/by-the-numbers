@@ -455,6 +455,7 @@
   "libllvm13",
   "libmamba",
   "libnetcdf_dev",
+  "libpetsc",
   "libplumed",
   "libprotobuf_dev",
   "libsolv_dev",
