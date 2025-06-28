@@ -272,6 +272,7 @@
   "cudf_unsupported",
   "cudnn",
   "cudnn-8.7.0",
+  "cudnn-8.9.7",
   "cudnn6",
   "cudnn8",
   "cudnn8.6",
