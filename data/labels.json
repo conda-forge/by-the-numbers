@@ -651,6 +651,7 @@
   "pytask_rc",
   "pytest-html_rc",
   "pytest_lsp_alpha",
+  "pytest_lsp_beta",
   "pythia8_dev",
   "python",
   "python-debug",
