@@ -14,6 +14,7 @@
   ":",
   ":TEST",
   ":abi-dumper_dev",
+  "MAIN",
   "TEST",
   "aarch64",
   "abi-dumper_dev",
