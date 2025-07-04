@@ -261,6 +261,7 @@
   "cuda11.6",
   "cuda11.8",
   "cuda111",
+  "cuda113",
   "cuda117",
   "cuda118",
   "cuda11_4",
