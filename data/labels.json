@@ -498,6 +498,7 @@
   "lief_dev",
   "lief_rc",
   "linux",
+  "llama-cpu",
   "llama_cpp_python_dev",
   "llvm-bazel-cache",
   "llvm_dev",
