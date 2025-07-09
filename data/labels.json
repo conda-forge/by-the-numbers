@@ -301,6 +301,7 @@
   "cudnn6",
   "cudnn8",
   "cudnn8.6",
+  "cupy_cuda-12.x",
   "cupy_dev",
   "cupy_rc",
   "cutadapt",
