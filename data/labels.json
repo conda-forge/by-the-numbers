@@ -371,6 +371,7 @@
   "fenics_nightly",
   "fenicsx_dev",
   "fiona_dev",
+  "flexpart_dev",
   "flink_rc",
   "fluidsim-core",
   "fluidsim-core_rc",
