@@ -430,6 +430,7 @@
   "gdal3",
   "gdal311",
   "gdal_3.4.1",
+  "gdal_dev",
   "gdal_hdf4",
   "gdcm",
   "genomekit_dev",
