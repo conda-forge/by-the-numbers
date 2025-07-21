@@ -667,6 +667,7 @@
   "orc_dev",
   "osx_arm64",
   "paddle_arm64",
+  "pandas",
   "pandas_dev",
   "pandas_rc",
   "pandera_dev",
