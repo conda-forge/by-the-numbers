@@ -615,6 +615,7 @@
   "neuro",
   "ngsolve_dev",
   "nightly",
+  "nogil",
   "nomkl",
   "non-main",
   "notebook_alpha",
