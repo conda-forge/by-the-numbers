@@ -387,6 +387,7 @@
   "fenics_2019.1.0",
   "fenics_dev",
   "fenics_nightly",
+  "fenics_rc",
   "fenicsx_dev",
   "fiona_dev",
   "flexpart_dev",
