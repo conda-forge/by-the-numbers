@@ -542,6 +542,7 @@
   "libmamba",
   "libnetcdf_dev",
   "libomp_dev_ubuntu18.04",
+  "libopenbabel_rc",
   "libpetsc",
   "libplumed",
   "libprotobuf_dev",
