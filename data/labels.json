@@ -856,6 +856,7 @@
   "spglib_rc",
   "spyder-kernels_rc",
   "spyder_dev",
+  "spyder_ide_dev",
   "spyder_kernels_dev",
   "spyder_kernels_rc",
   "spyder_rc",
