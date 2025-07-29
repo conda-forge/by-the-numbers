@@ -594,6 +594,7 @@
   "metpy_rc",
   "mian",
   "microed-data_dev",
+  "microed-dev",
   "microed-tools_dev",
   "micromamba_dev",
   "micromamba_prerelease",
