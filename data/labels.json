@@ -443,6 +443,7 @@
   "gccXX",
   "gcc_9",
   "gcc_dev",
+  "gcc_repin",
   "gdal",
   "gdal111",
   "gdal2",
@@ -944,5 +945,6 @@
   "zppy",
   "zppy_dev",
   "zstash",
-  "zstash_dev"
+  "zstash_dev",
+  "zulu"
 ]
