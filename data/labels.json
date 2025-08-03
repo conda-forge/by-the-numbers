@@ -821,6 +821,7 @@
   "r_next",
   "r_rc",
   "r_ruv",
+  "radioconda",
   "raspberrypi",
   "rasterio_dev",
   "rattler-build_dev",
