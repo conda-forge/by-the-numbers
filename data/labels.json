@@ -761,6 +761,7 @@
   "pyload-ng_dev",
   "pymc3-legacy",
   "pymc3-py39",
+  "pyne",
   "pyne_dev",
   "pyne_rc",
   "pyoma-2_dev",
