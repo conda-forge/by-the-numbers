@@ -447,6 +447,7 @@
   "gcc_9",
   "gcc_dev",
   "gcc_repin",
+  "gccxml",
   "gdal",
   "gdal111",
   "gdal2",
