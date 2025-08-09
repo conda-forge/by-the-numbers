@@ -530,6 +530,7 @@
   "ipywidgets_rc",
   "iraf",
   "jax_cuda",
+  "jaxlib_staging",
   "jigsaw_dev",
   "jmetal",
   "js",
