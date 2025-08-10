@@ -885,6 +885,7 @@
   "rust_build",
   "rust_dev",
   "rust_dev,conda-forge",
+  "rust_dev::",
   "sage",
   "sagedev",
   "sagemaker-code-editor",
