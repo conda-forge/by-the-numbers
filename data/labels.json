@@ -927,6 +927,7 @@
   "superblockify_rc",
   "swi_prolog_experimental",
   "sysroot-with-crypt",
+  "sysroot-with-cryt",
   "systemc_dev",
   "tabmat_dev",
   "tango-idl_dev",
