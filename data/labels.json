@@ -443,6 +443,7 @@
   "gcc",
   "gcc-13.3.0",
   "gcc-fortran",
+  "gcc10",
   "gcc10_2",
   "gcc11",
   "gcc12",
