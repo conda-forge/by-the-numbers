@@ -579,6 +579,7 @@
   "libcxx_macos_lt_12",
   "libgcc-ng_dev",
   "libgdal_hotfix",
+  "libgl_extra",
   "libigl_dev",
   "libinit_dev",
   "libint",
