@@ -533,6 +533,7 @@
   "imod_rc",
   "ipopt_dev",
   "ipyelk_alpha",
+  "ipykernel_alpha",
   "ipython_beta",
   "ipython_rc",
   "ipywidgets_dev",
