@@ -486,6 +486,7 @@
   "geopandas_dev",
   "gettext_dev",
   "gevent_dev",
+  "glibc-2.12",
   "glibc2.27",
   "glibc_2.35",
   "glum_dev",
