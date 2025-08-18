@@ -708,6 +708,7 @@
   "old_feature_broken",
   "old_glibc",
   "old_name",
+  "old_pygmo",
   "oldrel",
   "omegaconf_dev",
   "onnx",
