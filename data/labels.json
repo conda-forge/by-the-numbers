@@ -351,6 +351,7 @@
   "cuda_12.6",
   "cuda_12.8.0_1",
   "cuda_12.9.1",
+  "cuda_dev",
   "cudf_unsupported",
   "cudnn",
   "cudnn-8.7.0",
