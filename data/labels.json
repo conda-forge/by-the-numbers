@@ -760,6 +760,7 @@
   "orc_dev",
   "osx_arm64",
   "paddle_arm64",
+  "pandapower_rc",
   "pandas",
   "pandas_dev",
   "pandas_rc",
