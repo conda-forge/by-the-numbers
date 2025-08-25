@@ -439,6 +439,7 @@
   "fenics_dev",
   "fenics_nightly",
   "fenics_rc",
+  "fenicsx",
   "fenicsx_dev",
   "ffmpeg_dev",
   "fiona_dev",
