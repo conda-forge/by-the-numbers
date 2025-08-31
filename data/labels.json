@@ -653,6 +653,7 @@
   "llama-cpu",
   "llama_cpp_python_dev",
   "llvm-bazel-cache",
+  "llvm10",
   "llvm_dev",
   "llvm_devl",
   "llvm_rc",
