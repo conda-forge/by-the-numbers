@@ -190,6 +190,7 @@
   "cf202003::fenics",
   "cf202003::pyferret",
   "cf202003::r-seurat",
+  "cf202003_aarch64",
   "cf202003_linux-aarch64",
   "cf202004",
   "cf202006",
