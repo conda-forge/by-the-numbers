@@ -389,6 +389,7 @@
   "cupy_win64",
   "cutadapt",
   "cv",
+  "cvodes",
   "cxx_compiler_old_and_less_cxx17",
   "cycamore_dev",
   "cyclus",
