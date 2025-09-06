@@ -1006,6 +1006,7 @@
   "static",
   "stir_dev",
   "strict",
+  "sundials_devel",
   "sunode_dev",
   "sunpy_rc",
   "superblockify_rc",
