@@ -598,6 +598,7 @@
   "jupyter_lsp_beta",
   "jupyter_lsp_rc",
   "jupyter_rc",
+  "jupyter_server_documents_dev",
   "jupyter_server_rc",
   "jupyterlab_alpha",
   "jupyterlab_beta",
