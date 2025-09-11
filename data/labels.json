@@ -108,6 +108,7 @@
   "broken-exports",
   "broken-test",
   "broken:",
+  "broken::conda",
   "broken_upstream_release",
   "browsers",
   "builder",
