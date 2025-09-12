@@ -733,6 +733,7 @@
   "micromamba_prerelease",
   "micromamba_rc",
   "mkl_rc",
+  "mkl_rc::blas",
   "mlir_rc",
   "mlir_tf",
   "mne-bids_dev",
