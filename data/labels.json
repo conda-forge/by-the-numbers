@@ -1101,6 +1101,7 @@
   "xcdat_dev",
   "xeus-cling",
   "xeus-octave_dev",
+  "xgboost_cuda",
   "xgboost_rc",
   "xorg",
   "yarn_rc",
