@@ -965,6 +965,7 @@
   "pytorch_legacy",
   "pytorch_lightning_prerelease",
   "pytorch_macos",
+  "pytorch_nightly",
   "pytorch_nightly::pytorch",
   "pytorch_rc",
   "pyviz",
