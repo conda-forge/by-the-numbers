@@ -675,6 +675,7 @@
   "kubessh_dev",
   "lab",
   "lammps",
+  "lapack.rc",
   "lapack_dev",
   "lapack_rc",
   "lazy_loader_rc",
