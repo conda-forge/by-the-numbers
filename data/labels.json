@@ -315,6 +315,8 @@
   "cinnabar_rc",
   "cleo_dev",
   "click",
+  "cloudcompy-dev",
+  "cloudcompy-rc",
   "cloudcompy_dev",
   "cloudml_hypertune_dev",
   "cmake",
