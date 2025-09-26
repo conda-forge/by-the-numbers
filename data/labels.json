@@ -894,6 +894,7 @@
   "openvino_dev",
   "optional",
   "orc_dev",
+  "osm2pgsql_dev",
   "osmesa",
   "osx_arm64",
   "paddle_arm64",
