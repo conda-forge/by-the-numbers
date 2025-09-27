@@ -498,6 +498,7 @@
   "cylp_rc",
   "cymetric_dev",
   "cython_dev",
+  "deadsnakes",
   "debug",
   "deepmd-kit_dev",
   "deepmd-kit_rc",
