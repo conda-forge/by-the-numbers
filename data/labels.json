@@ -1042,6 +1042,7 @@
   "python_debug",
   "python_debug::python",
   "python_dev",
+  "python_minimal",
   "python_oldpython",
   "python_prepre",
   "python_prerelease",
