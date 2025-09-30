@@ -717,6 +717,7 @@
   "julia_dev",
   "julia_rc",
   "jupyter-ai_rc",
+  "jupyter_ai_rc",
   "jupyter_lsp_beta",
   "jupyter_lsp_rc",
   "jupyter_rc",
