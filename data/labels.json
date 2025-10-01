@@ -879,6 +879,7 @@
   "nodejs",
   "nodejs14",
   "nodejs_archive",
+  "nodejs_rc",
   "nogil",
   "nomkl",
   "non-main",
