@@ -1055,6 +1055,7 @@
   "python",
   "python%3D3.11",
   "python-debug",
+  "python-nogil_dev",
   "python2",
   "python_",
   "python_alpha",
