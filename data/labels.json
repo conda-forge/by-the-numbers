@@ -518,6 +518,7 @@
   "cylp_rc",
   "cymetric_dev",
   "cython_dev",
+  "dacase",
   "deadsnakes",
   "dealii_dev",
   "debug",
