@@ -1059,6 +1059,7 @@
   "pymc3-legacy",
   "pymc3-py39",
   "pymol",
+  "pymol_dev",
   "pymupdf",
   "pyne",
   "pyne_dev",
