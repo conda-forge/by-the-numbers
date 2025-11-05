@@ -517,6 +517,7 @@
   "cuda_9_2",
   "cuda_dev",
   "cuda_main",
+  "cudatoolkit-nightly",
   "cudatoolkit_dev",
   "cudf_unsupported",
   "cudnn",
