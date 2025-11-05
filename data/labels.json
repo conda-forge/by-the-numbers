@@ -615,6 +615,7 @@
   "fenics-dolfin",
   "fenics-dolfinx-nightly",
   "fenics-ffcx-nightly",
+  "fenics-main",
   "fenics-stable",
   "fenics-ufl-nightly",
   "fenics2019.1.0",
