@@ -1247,6 +1247,7 @@
   "rosetta-forge",
   "rpds_dev",
   "rubin-env_dev",
+  "rust",
   "rust_build",
   "rust_dev",
   "rust_dev,conda-forge",
