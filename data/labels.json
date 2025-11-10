@@ -965,6 +965,7 @@
   "mypy-scipy",
   "nanobind_dev",
   "napari_nikon_nd2_osx-arm64",
+  "navigator_rc",
   "nbconvert_rc",
   "ncl_arm",
   "nco_dev",
