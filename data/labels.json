@@ -429,6 +429,7 @@
   "cr201901",
   "cr202003",
   "ct2_cuda-12",
+  "ctranslate2_cuda-12.1",
   "cu118",
   "cuda",
   "cuda-11.0",
