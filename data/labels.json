@@ -1269,6 +1269,7 @@
   "rc_ucx",
   "rcpp11_dev",
   "rdkit-legacy",
+  "rdkit_2021.03.4",
   "rdkit_dev",
   "rdkit_legacy",
   "rdkit_rc",
