@@ -900,6 +900,7 @@
   "linux",
   "linux-86",
   "linux_64",
+  "linux_aarch64",
   "linux_pie",
   "llama-cpp-python-rc",
   "llama-cpu",
