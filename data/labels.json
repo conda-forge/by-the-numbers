@@ -73,6 +73,7 @@
   "arrow_15",
   "arrow_avx512",
   "asv_dev",
+  "aws-sdk-enabled",
   "azure-batch_rc",
   "azure-datalake-store_dev",
   "azure-datalake-store_rc",
