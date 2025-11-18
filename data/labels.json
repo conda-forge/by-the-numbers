@@ -810,6 +810,7 @@
   "ipywidgets_dev",
   "ipywidgets_rc",
   "iraf",
+  "iraf-legacy-2018",
   "isce2",
   "jax",
   "jax_cuda",
