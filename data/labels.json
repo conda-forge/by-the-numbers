@@ -881,6 +881,7 @@
   "lapack_rc",
   "lazy_loader_rc",
   "legacy",
+  "legacy_win32",
   "lgpl_hf3bc211_603",
   "lhcbdirac_rc",
   "lib0int_dev",
