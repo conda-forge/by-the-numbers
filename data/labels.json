@@ -920,6 +920,7 @@
   "libsolv_dev",
   "libsolv_rc",
   "libspatialite_dev",
+  "libstdcxx",
   "libstdcxx-ng_rc",
   "libszip",
   "libtorrent_rc",
