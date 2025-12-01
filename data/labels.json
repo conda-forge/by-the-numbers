@@ -990,6 +990,7 @@
   "mcp-haystack_rc",
   "mdal-python_rc",
   "mdtraj_rc",
+  "mediapipe_rc",
   "menpo",
   "mesa",
   "meson_dev",
