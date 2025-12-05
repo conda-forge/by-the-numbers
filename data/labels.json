@@ -834,6 +834,7 @@
   "hydra-core",
   "hydra-core_dev",
   "hydromt_wflow_rc",
+  "icechunk_dev",
   "imod",
   "imod_rc",
   "insarlab",
