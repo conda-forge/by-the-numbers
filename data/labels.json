@@ -1293,6 +1293,7 @@
   "pytorch3d",
   "pytorch_2",
   "pytorch_2_1_0",
+  "pytorch_cpu",
   "pytorch_dev",
   "pytorch_legacy",
   "pytorch_lightning_prerelease",
