@@ -1023,6 +1023,7 @@
   "mamba_ssm_dev",
   "man",
   "mantid_nightly",
+  "manylinux2014",
   "markitdown_dev",
   "matplotlib-base_rc",
   "matplotlib_rc",
