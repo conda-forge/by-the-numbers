@@ -1170,6 +1170,7 @@
   "openff-models_rc",
   "openff-qcsubmit_rc",
   "openff-toolkit_rc",
+  "openff-units_dev",
   "openino_dev",
   "openmc_dev",
   "openmm-torch_rc",
