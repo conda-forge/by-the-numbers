@@ -1543,6 +1543,7 @@
   "rust_dev",
   "rust_dev,conda-forge",
   "rust_dev::",
+  "rust_dev::rust",
   "rust_stable",
   "sage",
   "sagedev",
