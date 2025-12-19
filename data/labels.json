@@ -1384,6 +1384,7 @@
   "pyomo_rc",
   "pypi",
   "pypi_testing",
+  "pypy",
   "pyqt_arm64",
   "pyremap_dev",
   "pyrovelocity_dev",
