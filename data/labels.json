@@ -1172,6 +1172,7 @@
   "mpas_analysis",
   "mpas_analysis_dev",
   "mpas_tools_dev",
+  "mpi-external",
   "mpich",
   "mpich_dev",
   "msal_rc",
