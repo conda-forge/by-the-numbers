@@ -1063,6 +1063,7 @@
   "libmamba",
   "libmamba_solver",
   "libnetcdf_dev",
+  "libnetcdf_stub_1",
   "libomp_dev_ubuntu18.04",
   "libopenbabel_rc",
   "libpetsc",
