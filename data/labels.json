@@ -1544,6 +1544,7 @@
   "r_base43",
   "r_dev",
   "r_next",
+  "r_old",
   "r_old_release",
   "r_rc",
   "r_releases",
