@@ -1339,6 +1339,8 @@
   "openff-qcsubmit_rc",
   "openff-toolkit_rc",
   "openff-units_dev",
+  "openff_dev",
+  "openff_rc",
   "openforcefield_temp",
   "openino_dev",
   "openmc_dev",
