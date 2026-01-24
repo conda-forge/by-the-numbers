@@ -513,6 +513,7 @@
   "cf_dev",
   "cf_py310",
   "cf_py39_32bit",
+  "cf_pyodide",
   "cf_units_dev",
   "cfep8",
   "cff201901",
