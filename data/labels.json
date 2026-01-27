@@ -1423,6 +1423,7 @@
   "openmpi",
   "openmpi_rc",
   "openssl111",
+  "openssl_legacy",
   "openvino_dev",
   "optional",
   "orc_dev",
