@@ -1175,6 +1175,7 @@
   "libjpeg8-debian-jessie-outdated",
   "libllvm13",
   "libmamba",
+  "libmamba_compat",
   "libmamba_solver",
   "libmambapy",
   "libnetcdf_dev",
