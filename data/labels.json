@@ -1279,6 +1279,7 @@
   "llvm-bazel-cache",
   "llvm10",
   "llvm400",
+  "llvm9",
   "llvm_dev",
   "llvm_devl",
   "llvm_rc",
