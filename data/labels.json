@@ -1802,6 +1802,7 @@
   "rust_linux-64",
   "rust_stable",
   "s390x",
+  "saccharomyces",
   "sage",
   "sage_9_4",
   "sagedev",
