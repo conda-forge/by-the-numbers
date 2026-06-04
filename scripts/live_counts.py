@@ -8,11 +8,11 @@ Collect some numbers for conda-forge:
 * Number of output packages (a feedstock can produce more than one package name)
 * Number of artifacts (a package name will have several builds)
 * Number of supported platforms
-* Number of total commits in the organization (number of commits made by bots)
+* Number of total commits in the organization (number of commits made by bots) [pending]
 * Number of issues and PRs
 * Total storage used at Anaconda.org
 * Number of downloads and bandwidth used
-* Number of CI runs
+* Number of CI runs [pending]
 """
 
 import os
@@ -138,6 +138,9 @@ def repodata_data():
 
 
 def cache_labels():
+    """
+    NOTE: Needs a BINSTAR_TOKEN with read permissions, from any account
+    """
     print("Caching labels...")
     labels = all_labels(use_remote_cache=False)
     with open("data/labels.json", "w") as f:

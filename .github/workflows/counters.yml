@@ -36,6 +36,9 @@ jobs:
         run: python scripts/live_counts.py
         env:
           GITHUB_TOKEN: ${{ steps.generate_token.outputs.token }}
+          # BINSTAR_TOKEN is for the labels.json file retrieval, which requires auth'd api
+          # Any anaconda.org token works, so we use the staging one for lower risk
+          BINSTAR_TOKEN: ${{ secrets.STAGING_BINSTAR_TOKEN }}
 
       - name: Commit to repo
         if: github.event_name != 'pull_request'
