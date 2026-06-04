@@ -19,7 +19,7 @@ import os
 import json
 
 import requests
-from conda_forge_metadata.repodata import SUBDIRS, n_artifacts, all_labels
+from conda_forge_metadata.repodata import SUBDIRS, aggregated, all_labels
 from github import Github
 
 
@@ -125,11 +125,15 @@ def github_data():
 
 def repodata_data():
     print("Getting artifacts...")
-    artifacts, packages = n_artifacts(labels=all_labels(use_remote_cache=False))
+    result = aggregated(
+        reports=["artifacts", "packages", "size"],
+        labels=all_labels(use_remote_cache=False),
+    )
     return { 
-        "n_artifacts": artifacts,
-        "n_packages": packages,
+        "n_artifacts": result["artifacts"],
+        "n_packages": result["packages"],
         "n_platforms": len(SUBDIRS) - 1,  # noarch is not a platform
+        "total_packages_size": result["size"],
     }
 
 
