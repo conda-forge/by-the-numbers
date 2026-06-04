@@ -126,12 +126,12 @@ def github_data():
 def repodata_data():
     print("Getting artifacts...")
     result = aggregated(
-        reports=["artifacts", "packages", "size"],
+        reports=["artifacts", "names", "size"],
         labels=all_labels(use_remote_cache=False),
     )
     return { 
         "n_artifacts": result["artifacts"],
-        "n_packages": result["packages"],
+        "n_packages": result["names"],
         "n_platforms": len(SUBDIRS) - 1,  # noarch is not a platform
         "total_packages_size": result["size"],
     }
