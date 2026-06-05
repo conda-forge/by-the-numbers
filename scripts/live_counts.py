@@ -123,11 +123,11 @@ def github_data():
     return data
 
 
-def repodata_data():
+def repodata_data(labels=("main",)):
     print("Getting artifacts...")
     result = aggregated(
         reports=["artifacts", "names", "size"],
-        labels=all_labels(use_remote_cache=False),
+        labels=labels,
     )
     return { 
         "n_artifacts": result["artifacts"],
@@ -137,7 +137,7 @@ def repodata_data():
     }
 
 
-def cache_labels():
+def cache_labels() -> list[str]:
     """
     NOTE: Needs a BINSTAR_TOKEN env var with read permissions, from any account
     """
@@ -145,13 +145,14 @@ def cache_labels():
     labels = all_labels(use_remote_cache=False)
     with open("data/labels.json", "w") as f:
         json.dump(labels, f, indent=2)
+    return labels
 
 
 def main():
-    cache_labels()
+    labels = [label for label in cache_labels() if "/" not in label]
     data = {
         **github_data(),
-        **repodata_data(),
+        **repodata_data(labels),
         # Missing fields - WIP
         "n_commits": None,
         "n_commits_bots": None,

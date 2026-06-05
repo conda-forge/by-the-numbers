@@ -6,3 +6,4 @@ graph.json
 cf-action-counter-db
 repodata-*.json
 conda-forge-status-monitor/
+.repodata_cache/
