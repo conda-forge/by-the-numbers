@@ -8,19 +8,19 @@ Collect some numbers for conda-forge:
 * Number of output packages (a feedstock can produce more than one package name)
 * Number of artifacts (a package name will have several builds)
 * Number of supported platforms
-* Number of total commits in the organization (number of commits made by bots)
+* Number of total commits in the organization (number of commits made by bots) [pending]
 * Number of issues and PRs
 * Total storage used at Anaconda.org
 * Number of downloads and bandwidth used
-* Number of CI runs
+* Number of CI runs [pending]
 """
 
 import os
 import json
 
 import requests
-from conda_forge_metadata.repodata import SUBDIRS, n_artifacts
-from github import Github
+from conda_forge_metadata.repodata import SUBDIRS, aggregated, all_labels
+from github import Github, Auth
 
 
 GH_TOKEN = os.environ["GITHUB_TOKEN"]
@@ -44,7 +44,7 @@ def _gh_api_query_total_count(query, **kwargs):
 def github_data():
     print("Initializing for Github...")
 
-    gh = Github(GH_TOKEN)
+    gh = Github(auth=Auth.Token(GH_TOKEN))
     org = gh.get_organization("conda-forge")
     # get creation date
     print("Getting creation date...")
@@ -123,20 +123,36 @@ def github_data():
     return data
 
 
-def repodata_data():
+def repodata_data(labels=("main",)):
     print("Getting artifacts...")
-    artifacts, packages = n_artifacts(labels=("main",))
-    return {
-        "n_artifacts": artifacts,
-        "n_packages": packages,
+    result = aggregated(
+        reports=["artifacts", "names", "size"],
+        labels=labels,
+    )
+    return { 
+        "n_artifacts": result["artifacts"],
+        "n_packages": result["names"],
         "n_platforms": len(SUBDIRS) - 1,  # noarch is not a platform
+        "total_packages_size": result["size"],
     }
 
 
+def cache_labels() -> list[str]:
+    """
+    NOTE: Needs a BINSTAR_TOKEN env var with read permissions, from any account
+    """
+    print("Caching labels...")
+    labels = all_labels(use_remote_cache=False)
+    with open("data/labels.json", "w") as f:
+        json.dump(labels, f, indent=2)
+    return labels
+
+
 def main():
+    labels = [label for label in cache_labels() if "/" not in label]
     data = {
         **github_data(),
-        **repodata_data(),
+        **repodata_data(labels),
         # Missing fields - WIP
         "n_commits": None,
         "n_commits_bots": None,
