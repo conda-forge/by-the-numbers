@@ -20,7 +20,7 @@ import json
 
 import requests
 from conda_forge_metadata.repodata import SUBDIRS, aggregated, all_labels
-from github import Github
+from github import Github, Auth
 
 
 GH_TOKEN = os.environ["GITHUB_TOKEN"]
@@ -44,7 +44,7 @@ def _gh_api_query_total_count(query, **kwargs):
 def github_data():
     print("Initializing for Github...")
 
-    gh = Github(GH_TOKEN)
+    gh = Github(auth=Auth.Token(GH_TOKEN))
     org = gh.get_organization("conda-forge")
     # get creation date
     print("Getting creation date...")
@@ -139,7 +139,7 @@ def repodata_data():
 
 def cache_labels():
     """
-    NOTE: Needs a BINSTAR_TOKEN with read permissions, from any account
+    NOTE: Needs a BINSTAR_TOKEN env var with read permissions, from any account
     """
     print("Caching labels...")
     labels = all_labels(use_remote_cache=False)
