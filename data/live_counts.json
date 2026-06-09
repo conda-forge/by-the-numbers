@@ -4,21 +4,21 @@
   "n_members_core": 25,
   "n_members_staged_recipes": 25,
   "n_repos": 28554,
-  "n_issues": 47450,
-  "n_open_issues": 6351,
-  "n_closed_issues": 41099,
-  "n_prs": 613924,
-  "n_open_prs": 20093,
-  "n_closed_prs": 593831,
+  "n_issues": 47453,
+  "n_open_issues": 6353,
+  "n_closed_issues": 41100,
+  "n_prs": 614017,
+  "n_open_prs": 20115,
+  "n_closed_prs": 593902,
   "downloads": {
     "month": "1491921617",
     "year": "14406942881",
     "all": "43481939726"
   },
-  "n_artifacts": 3610311,
-  "n_packages": 33212,
+  "n_artifacts": 3610853,
+  "n_packages": 33213,
   "n_platforms": 7,
   "n_commits": null,
   "n_commits_bots": null,
-  "total_packages_size": 24586042209746
+  "total_packages_size": 24592224249711
 }
