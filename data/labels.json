@@ -70,6 +70,7 @@
   "cffi_rc",
   "cftime_dev",
   "chemdyg_dev",
+  "chemprop_rc",
   "cinnabar_rc",
   "cleo_dev",
   "cloudml_hypertune_dev",
