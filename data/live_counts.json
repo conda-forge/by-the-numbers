@@ -3,22 +3,22 @@
   "n_members": 7774,
   "n_members_core": 24,
   "n_members_staged_recipes": 26,
-  "n_repos": 28891,
-  "n_issues": 48145,
-  "n_open_issues": 6402,
-  "n_closed_issues": 41743,
-  "n_prs": 624520,
-  "n_open_prs": 20431,
-  "n_closed_prs": 604089,
+  "n_repos": 28895,
+  "n_issues": 48155,
+  "n_open_issues": 6403,
+  "n_closed_issues": 41752,
+  "n_prs": 624604,
+  "n_open_prs": 20426,
+  "n_closed_prs": 604178,
   "downloads": {
     "month": "1552378492",
     "year": "14877104939",
     "all": "45034318218"
   },
-  "n_artifacts": 3679024,
-  "n_packages": 33607,
+  "n_artifacts": 3679863,
+  "n_packages": 33612,
   "n_platforms": 7,
   "n_commits": null,
   "n_commits_bots": null,
-  "total_packages_size": 25343526742916
+  "total_packages_size": 25361988401232
 }
