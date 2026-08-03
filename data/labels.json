@@ -408,6 +408,7 @@
   "systemc_dev",
   "tabmat_dev",
   "tango-idl_dev",
+  "tango-idl_rc",
   "tango-test_rc",
   "tango_dev",
   "tarts_dev",
