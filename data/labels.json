@@ -424,6 +424,7 @@
   "testing",
   "tiledb-py_rc",
   "tiledb_rc",
+  "tomviz_pipeline_dev",
   "treelite_rc",
   "treematching_dev",
   "turbodbc_dev",
