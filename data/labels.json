@@ -136,6 +136,7 @@
   "geofileops_dev",
   "geofileops_rc",
   "geopandas_dev",
+  "geopolars_dev",
   "gettext_dev",
   "gevent_dev",
   "git_dev",
