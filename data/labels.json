@@ -277,6 +277,7 @@
   "numpy_rc",
   "nvlp_rc",
   "nvpl_rc",
+  "ocaml_experimental",
   "occt_rc",
   "ocl-icd-dev",
   "old",
