@@ -62,6 +62,7 @@
   "capytaine_dev",
   "cargo-patch-dev",
   "cartopy_dev",
+  "cc-plugin-wcrp_rc",
   "cdat_dev",
   "cdms2_dev",
   "ceres_solver_dev",
