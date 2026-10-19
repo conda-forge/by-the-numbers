@@ -325,6 +325,7 @@
   "pocl_dev",
   "poetry_dev",
   "polarify-rattler-build_dev",
+  "postgresql_rc",
   "pre",
   "pre-3.8",
   "prerelease",
