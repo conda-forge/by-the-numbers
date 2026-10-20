@@ -280,6 +280,7 @@
   "nvlp_rc",
   "nvpl_rc",
   "ocaml_experimental",
+  "ocamlbuild_experimental",
   "occt_rc",
   "ocl-icd-dev",
   "old",
