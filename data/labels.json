@@ -379,6 +379,7 @@
   "qcelemental_dev",
   "qcengine_dev",
   "qgis_ltr",
+  "qt6-webengine_rc",
   "rasterio_dev",
   "rattler-build_dev",
   "rattler-build_rc",
