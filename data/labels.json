@@ -267,6 +267,7 @@
   "mpi-external",
   "msal_rc",
   "msprime_rc",
+  "msvcstl_debug",
   "msys2-experimental",
   "nanobind_dev",
   "nbconvert_rc",
